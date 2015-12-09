@@ -1,0 +1,16 @@
+
+{
+  "email": {
+    "from_addr": "yourfromemailaddress@gmail.com",
+    "subject": "the email subject",
+    "body": "the email body"
+  },
+  "server": {
+    "addr": "smtp.gmail.com",
+    "port": "465"
+  },
+  "user": {
+    "username": "username",
+    "password": "password"
+  }
+}
