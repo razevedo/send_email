@@ -1,5 +1,6 @@
 
 {
+  "time_int": 8,	
   "email": {
     "from_addr": "yourfromemailaddress@gmail.com",
     "subject": "the email subject",

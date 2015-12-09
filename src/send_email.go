@@ -34,6 +34,7 @@ type UserType struct {
 }
 
 type ConfStructure struct {
+	Time_int int 
 	Email  EmailType
 	Server ServerType
 	User   UserType
@@ -179,7 +180,7 @@ func main() {
 		cont++
 		sendEmail(lines[i])
 		fmt.Println("Mail sent to ", lines[i])
-		delay := (time.Duration(rand.Intn(2)) * time.Minute)
+                delay := (time.Duration(rand.Intn(conf.Time_int)) * time.Minute)
 		fmt.Println("Waiting for ", delay, " seconds.")
 		time.Sleep(delay)
 	}
